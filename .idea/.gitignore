@@ -1,3 +1,19 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore database and migration files (optional)
+db.sqlite3
+*.sqlite3
+
+# Ignore Django secret key (if stored in a .env file)
+.env
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
